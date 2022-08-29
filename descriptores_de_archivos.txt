@@ -1,0 +1,19 @@
+hackiehacky
+Hola Juan, estás usando descriptores de archivos?
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;57H(B[0;7m[ Reading... ](B[m[22;56H(B[0;7m[ Read 41 lines ](B[m[H(B[0;7m  GNU nano 5.4                                               README.md                                                         [1;126H(B[m[23d(B[0;7m^G(B[m Help[23;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[23;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[24d(B[0;7m^X(B[m Exit[24;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[33m### Enlaces útiles: [3d[39m(B[mComandos de linux: https://ciberninjas.com/chuleta-comandos-linux/[5d(B[0;1m[33m### Cuando no queremos mostrar errores por consola, podemos rederigir el error mediante (stderr 2>) y enviarlos a /dev/null[6d[36m```zsh[7d[33m# vemos el error[8d[36mwhoam[10d[33m# no vemos el error[11d[36mwhoam 2>/dev/null[12d```[14d[33m### Una forma de ocultar la salida (stdout o output de la consola) incluyendo el stderr:[15d[36m```zsh[16dcat /etc/host &>/dev/null[18d[33m#o forma larga: el 2>$1 estamos diciendo que el stderr lo convertimos en stdout [20d[36mcat /etc/host > /dev/null 2>&1 [2d[39m(B[m[?12l[?25h[?25l[22;39H(B[0;7m[ line 1/42 (2%), col 1/21 (4%), char 0/1159 (0%) ](B[m[2d[?12l[?25h[?25l[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l
+
+Use "fg" to return to nano.
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22d(B[0;7mFile README.md is being edited by hackiehacky (with nano 5.4, PID 2075); open anyway?                                          [23;1H Y(B[m Yes[24d(B[0;7m N(B[m No[24;17H(B[0;7m^C(B[m Cancel[22;86H[?12l[?25h[?25l[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004ltotal 112
+-rw-r--r-- 1 hackiehacky hackiehacky 103691 ago 27 19:43 bash-redirections-cheat-sheet.pdf
+-rw-r--r-- 1 hackiehacky hackiehacky   2148 ago 29 20:03 descriptores_de_archivos.txt
+-rw-r--r-- 1 hackiehacky hackiehacky   1163 ago 29 20:01 README.md
+total 120
+drwxr-xr-x 1 hackiehacky hackiehacky    194 ago 29 20:02 .
+drwxr-xr-x 1 hackiehacky hackiehacky     14 ago 25 22:42 ..
+-rw-r--r-- 1 hackiehacky hackiehacky 103691 ago 27 19:43 bash-redirections-cheat-sheet.pdf
+-rw-r--r-- 1 hackiehacky hackiehacky   2402 ago 29 20:03 descriptores_de_archivos.txt
+drwxr-xr-x 1 hackiehacky hackiehacky    144 ago 29 19:55 .git
+-rw-r--r-- 1 hackiehacky hackiehacky   1163 ago 29 20:01 README.md
+-rw-r--r-- 1 hackiehacky hackiehacky   1024 ago 29 20:02 .README.md.swp
+-rw-r--r-- 1 hackiehacky hackiehacky   1024 ago 29 19:58 .READ.swp
+[24;1H[?1049l[23;0;0t[?1l>[24;1H[?1049l[23;0;0t[?1l>[?2004l

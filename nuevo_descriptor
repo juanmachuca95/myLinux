@@ -1,0 +1,14 @@
+Hey! acabaste de usar de nuevo el descriptor ahora como: ( exec 7<> nuevo_descriptor )
+1
+
+127
+0
+?
+0
+
+?
+total 116
+-rw-r--r-- 1 hackiehacky hackiehacky 103691 ago 27 19:43 bash-redirections-cheat-sheet.pdf
+-rw-r--r-- 1 hackiehacky hackiehacky   3048 ago 29 20:03 descriptores_de_archivos.txt
+-rw-r--r-- 1 hackiehacky hackiehacky    103 ago 29 20:07 nuevo_descriptor
+-rw-r--r-- 1 hackiehacky hackiehacky   1253 ago 29 20:04 README.md

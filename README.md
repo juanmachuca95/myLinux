@@ -1,7 +1,7 @@
-Enlaces útiles: 
+### Enlaces útiles: 
 Comandos de linux: https://ciberninjas.com/chuleta-comandos-linux/
 
-# Cuando no queremos mostrar errores por consola, podemos rederigir el error mediante (stderr 2>) y enviarlos a /dev/null
+### Cuando no queremos mostrar errores por consola, podemos rederigir el error mediante (stderr 2>) y enviarlos a /dev/null
 ```zsh
 # vemos el error
 whoam
@@ -10,7 +10,7 @@ whoam
 whoam 2>/dev/null
 ```
 
-# Una forma de ocultar la salida (stdout o output de la consola) incluyendo el stderr:
+### Una forma de ocultar la salida (stdout o output de la consola) incluyendo el stderr:
 ```zsh
 cat /etc/host &>/dev/null
 
@@ -28,3 +28,16 @@ wireshark &>/dev/null &
 #Por lo que una manera de independizar el proceso en segundo plano de la consola seria usa "disown"
 ```
  
+### Descripctores de archivo 
+```zsh
+exec 8> descriptores_de_archivo.txt; whoami >8& 
+
+echo "Hola Juan, estás usando descriptores de archivos?" >8&
+
+cat descriptores_de_archivos.txt
+# hackiehacky
+# Hola Juan, estás usando descriptores de archivos? 
+```
+
+Eliminamos descriptores ```exec >&8-``` y si luego intentamos escribir de nuevo fallará
+
